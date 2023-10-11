@@ -6,34 +6,34 @@ import RenderTag from "../RenderTag";
 const RightSidebar = () => {
   const hotQuestions = [
     {
-      _id: 1,
+      _id: "1",
       title: "How do I use express as a custom server in NextJS?",
     },
     {
-      _id: 2,
+      _id: "2",
       title: "Cascading Deletes in MongoDB?",
     },
     {
-      _id: 3,
+      _id: "3",
       title: "How to perfectly center a div usign TailwindCSS?",
     },
     {
-      _id: 4,
+      _id: "4",
       title: "Async/Await vs Promises in JavaScript?",
     },
     {
-      _id: 4,
+      _id: "4",
       title:
         "Whats the main difference between React and Vue? Should i learn both?",
     },
   ];
 
   const popularTags = [
-    { _id: 1, name: "javascript", totalQuestions: 5 },
-    { _id: 2, name: "react", totalQuestions: 7 },
-    { _id: 3, name: "next", totalQuestions: 10 },
-    { _id: 4, name: "vue", totalQuestions: 3 },
-    { _id: 5, name: "redux", totalQuestions: 15 },
+    { _id: "1", name: "javascript", totalQuestions: 5 },
+    { _id: "2", name: "react", totalQuestions: 7 },
+    { _id: "3", name: "next", totalQuestions: 10 },
+    { _id: "4", name: "vue", totalQuestions: 3 },
+    { _id: "5", name: "redux", totalQuestions: 15 },
   ];
   return (
     <section className=" background-light900_dark200 light-border sticky right-0 top-0 flex h-screen  flex-col overflow-y-auto border-l p-6 pt-36 shadow-light-300 dark:shadow-none max-xl:hidden w-[350px] custom-scrollbar">
